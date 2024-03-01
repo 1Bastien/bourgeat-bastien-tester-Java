@@ -24,3 +24,26 @@ Le projet utilise les technologies suivantes :
 - **Maven**
 - **MySQL**
 - **Jacoco et JUnit**
+
+## Prérequis
+
+- Java
+- Maven
+
+## Installation
+
+```bash
+git clone https://github.com/1Bastien/bourgeat-bastien-tester-Java
+```
+```
+cd bourgeat-bastien-tester-Java
+```
+```
+mvn clean package
+```
+```
+cd target
+```
+```
+java -jar parking-system-1.0-SNAPSHOT-jar-with-dependencies.jar
+```
